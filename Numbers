@@ -1,0 +1,22 @@
+import 'dart:math';
+
+void main() {
+  double num1 = 10.0;
+  double num2 = 5.0;
+
+  // Addition
+  double sum = num1 + num2;
+  print('Addition: $num1 + $num2 = $sum');
+
+  // Subtraction
+  double difference = num1 - num2;
+  print('Subtraction: $num1 - $num2 = $difference');
+
+  // Multiplication
+  double product = num1 * num2;
+  print('Multiplication: $num1 * $num2 = $product');
+
+  // Square root
+  double sqrtResult = sqrt(num1);
+  print('Square Root of $num1 = $sqrtResult');
+}
